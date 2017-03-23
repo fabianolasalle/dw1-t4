@@ -2,7 +2,7 @@ class Celcius
 	def initialize(temperature)
 		@temperature = temperature
 	end
-	
+
 	def temperature=(newTemperature)
 		@temperature = newTemperature
 	end

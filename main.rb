@@ -17,6 +17,8 @@ while true
 	end
 
 	s.sensorStatus = c.temperature.to_f > s.temperature.to_f
-
+	s.showCurrentLimit()
 	s.showSensorStatus()
+
+	print "\n"
 end

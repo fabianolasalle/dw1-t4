@@ -23,4 +23,8 @@ class Sensor < Celcius
 		end
 		print "\n"
 	end
+
+	def showCurrentLimit()
+		print "Current limit is: " + @temperature.to_s + "\n"
+	end
 end
